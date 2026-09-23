@@ -1,0 +1,11 @@
+Best Model: Random Forest
+
+              precision    recall  f1-score   support
+
+    Abnormal       0.42      0.46      0.44      3688
+Inconclusive       0.42      0.41      0.41      3640
+      Normal       0.44      0.41      0.43      3666
+
+    accuracy                           0.43     10994
+   macro avg       0.43      0.43      0.43     10994
+weighted avg       0.43      0.43      0.43     10994

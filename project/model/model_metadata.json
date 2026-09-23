@@ -1,0 +1,80 @@
+{
+  "model_name": "Random Forest",
+  "target": "Test Results",
+  "classes": [
+    "Abnormal",
+    "Inconclusive",
+    "Normal"
+  ],
+  "numerical_features": [
+    "Age",
+    "Billing Amount",
+    "Room Number",
+    "Length of Stay",
+    "Admission Year",
+    "Admission Month",
+    "Admission DayOfWeek"
+  ],
+  "categorical_features": [
+    "Gender",
+    "Blood Type",
+    "Medical Condition",
+    "Insurance Provider",
+    "Admission Type",
+    "Medication"
+  ],
+  "feature_names": [
+    "Age",
+    "Gender",
+    "Blood Type",
+    "Medical Condition",
+    "Insurance Provider",
+    "Billing Amount",
+    "Room Number",
+    "Admission Type",
+    "Medication",
+    "Length of Stay",
+    "Admission Year",
+    "Admission Month",
+    "Admission DayOfWeek"
+  ],
+  "metrics": {
+    "accuracy": 0.4263,
+    "f1_score": 0.4261,
+    "roc_auc": 0.6313
+  },
+  "all_models": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.3326,
+      "Precision": 0.333,
+      "Recall": 0.3326,
+      "F1-Score": 0.3304,
+      "ROC-AUC": 0.4979
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.4263,
+      "Precision": 0.4266,
+      "Recall": 0.4263,
+      "F1-Score": 0.4261,
+      "ROC-AUC": 0.6313
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Accuracy": 0.3333,
+      "Precision": 0.3334,
+      "Recall": 0.3333,
+      "F1-Score": 0.3325,
+      "ROC-AUC": 0.5018
+    },
+    {
+      "Model": "HistGradientBoosting",
+      "Accuracy": 0.3413,
+      "Precision": 0.3416,
+      "Recall": 0.3413,
+      "F1-Score": 0.3389,
+      "ROC-AUC": 0.5163
+    }
+  ]
+}
